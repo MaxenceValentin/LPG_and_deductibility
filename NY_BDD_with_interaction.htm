@@ -1,0 +1,46 @@
+
+<table style="text-align:center"><tr><td colspan="5" style="border-bottom: 1px solid black"></td></tr><tr><td style="text-align:left"></td><td colspan="4"><em>Dependent variable:</em></td></tr>
+<tr><td></td><td colspan="4" style="border-bottom: 1px solid black"></td></tr>
+<tr><td style="text-align:left"></td><td colspan="4">log(Sale.Price)</td></tr>
+<tr><td style="text-align:left"></td><td>(1)</td><td>(2)</td><td>(3)</td><td>(4)</td></tr>
+<tr><td colspan="5" style="border-bottom: 1px solid black"></td></tr><tr><td style="text-align:left">log(Lot.size)</td><td>0.04<sup>***</sup></td><td>0.06<sup>***</sup></td><td>0.05<sup>***</sup></td><td>0.05<sup>***</sup></td></tr>
+<tr><td style="text-align:left"></td><td>(0.01)</td><td>(0.01)</td><td>(0.01)</td><td>(0.01)</td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td><td></td><td></td></tr>
+<tr><td style="text-align:left">log(Sq.footage)</td><td>0.59<sup>***</sup></td><td>0.55<sup>***</sup></td><td>0.64<sup>***</sup></td><td>0.63<sup>***</sup></td></tr>
+<tr><td style="text-align:left"></td><td>(0.07)</td><td>(0.06)</td><td>(0.02)</td><td>(0.02)</td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td><td></td><td></td></tr>
+<tr><td style="text-align:left">Building_age</td><td>-0.01<sup>***</sup></td><td>-0.01<sup>***</sup></td><td>-0.01<sup>***</sup></td><td>-0.01<sup>***</sup></td></tr>
+<tr><td style="text-align:left"></td><td>(0.001)</td><td>(0.001)</td><td>(0.001)</td><td>(0.001)</td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td><td></td><td></td></tr>
+<tr><td style="text-align:left">Building_age_sq</td><td>0.0000<sup>***</sup></td><td>0.0000<sup>***</sup></td><td>0.0000<sup>***</sup></td><td>0.0000<sup>***</sup></td></tr>
+<tr><td style="text-align:left"></td><td>(0.0000)</td><td>(0.0000)</td><td>(0.0000)</td><td>(0.0000)</td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td><td></td><td></td></tr>
+<tr><td style="text-align:left">Condo</td><td>-0.19<sup>***</sup></td><td>0.05</td><td>-0.15<sup>**</sup></td><td>-0.15<sup>**</sup></td></tr>
+<tr><td style="text-align:left"></td><td>(0.05)</td><td>(0.13)</td><td>(0.06)</td><td>(0.06)</td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td><td></td><td></td></tr>
+<tr><td style="text-align:left">Cash</td><td>-0.11<sup>***</sup></td><td>-0.12<sup>***</sup></td><td>-0.13<sup>***</sup></td><td>-0.13<sup>***</sup></td></tr>
+<tr><td style="text-align:left"></td><td>(0.02)</td><td>(0.02)</td><td>(0.02)</td><td>(0.02)</td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td><td></td><td></td></tr>
+<tr><td style="text-align:left">Minority.share</td><td></td><td></td><td></td><td>-0.18<sup>***</sup></td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td><td></td><td>(0.06)</td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td><td></td><td></td></tr>
+<tr><td style="text-align:left">Bachelor.share</td><td></td><td></td><td></td><td>0.43<sup>***</sup></td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td><td></td><td>(0.09)</td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td><td></td><td></td></tr>
+<tr><td style="text-align:left">Income_median</td><td></td><td></td><td></td><td>0.001<sup>**</sup></td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td><td></td><td>(0.0004)</td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td><td></td><td></td></tr>
+<tr><td style="text-align:left">Test.score</td><td>0.38<sup>***</sup></td><td>0.28<sup>***</sup></td><td>0.25<sup>***</sup></td><td>0.06</td></tr>
+<tr><td style="text-align:left"></td><td>(0.04)</td><td>(0.04)</td><td>(0.04)</td><td>(0.04)</td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td><td></td><td></td></tr>
+<tr><td style="text-align:left">Test.score:Post</td><td>-0.06<sup>***</sup></td><td>-0.06<sup>***</sup></td><td>-0.07<sup>***</sup></td><td>-0.08<sup>***</sup></td></tr>
+<tr><td style="text-align:left"></td><td>(0.01)</td><td>(0.02)</td><td>(0.01)</td><td>(0.01)</td></tr>
+<tr><td style="text-align:left"></td><td></td><td></td><td></td><td></td></tr>
+<tr><td colspan="5" style="border-bottom: 1px solid black"></td></tr><tr><td style="text-align:left">Month FE</td><td>X</td><td>X</td><td>X</td><td>X</td></tr>
+<tr><td style="text-align:left">Spatial FE</td><td>County</td><td>Border</td><td>Border</td><td>Border</td></tr>
+<tr><td style="text-align:left">Bandwidth</td><td></td><td></td><td>1 mile</td><td>1 mile</td></tr>
+<tr><td style="text-align:left">Observations</td><td>677,500</td><td>677,500</td><td>344,274</td><td>344,253</td></tr>
+<tr><td style="text-align:left">R<sup>2</sup></td><td>0.73</td><td>0.76</td><td>0.80</td><td>0.80</td></tr>
+<tr><td style="text-align:left">Adjusted R<sup>2</sup></td><td>0.73</td><td>0.76</td><td>0.80</td><td>0.80</td></tr>
+<tr><td colspan="5" style="border-bottom: 1px solid black"></td></tr><tr><td style="text-align:left"><em>Note:</em></td><td colspan="4" style="text-align:right"><sup>*</sup>p<0.1; <sup>**</sup>p<0.05; <sup>***</sup>p<0.01</td></tr>
+</table>
